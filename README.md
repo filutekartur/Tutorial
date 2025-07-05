@@ -16,3 +16,7 @@ klonuje całe repo z githuba do miejsca w którym jest obecnie terminal
 
 ## git status
 pokazuje status repozytorium tj. ktore pliki zostały zmodyfikowane, a które zostały dodane całkowicie nowe itp.
+
+
+## git add .
+Rozpoczyna śledzenie plików. Można dodać pojedyncze pliki, całe katalogi lub . która dodaje całą zawartość
