@@ -20,3 +20,6 @@ pokazuje status repozytorium tj. ktore pliki zostały zmodyfikowane, a które zo
 
 ## git add .
 Rozpoczyna śledzenie plików. Można dodać pojedyncze pliki, całe katalogi lub . która dodaje całą zawartość
+
+## git commit -m "Title" -m "Description"
+zapisuje zmiany w śledzonych plikach (add) zmiany zostaną zapisane w lokalnym Git 
