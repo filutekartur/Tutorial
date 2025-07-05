@@ -15,6 +15,7 @@ Dodawanie lokalnego klucza do gituba autoryzuje nas i pozwala nam modyfikować k
 
 ssh-keygen -t ed25519 -C "your_email@example.com"
 Ta komenda stworzy klucz prywatny id_ed25519 i publiczny id_ed25519.pub w C:\Users\S\.ssh. Zawartośc plublicznego dodajemy w githubie w ustawieniach.
+Musimy potem jescze ten klucz dodac do ssh agenta ale to wszystko jest opisane w linku powyżej
 
 W C:\Users\S\.gitconfig znajduje sie nazwa i email lokalnego commitera. Każdy lokalny comit bedzie podpisywany tym userem.
 
