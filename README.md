@@ -14,3 +14,5 @@ Bedac w jakimś repo na githubie możemy kliknąć code>SSH i tam mamy link : gi
 ## git clone git@github.com:filutekartur/Tutorial.git
 klonuje całe repo z githuba do miejsca w którym jest obecnie terminal
 
+## git status
+pokazuje status repozytorium tj. ktore pliki zostały zmodyfikowane, a które zostały dodane całkowicie nowe itp.
