@@ -33,3 +33,8 @@ Rozpoczyna śledzenie plików. Można dodać pojedyncze pliki, całe katalogi lu
 
 ## git commit -m "Title" -m "Description"
 zapisuje zmiany w śledzonych plikach (add) zmiany zostaną zapisane w lokalnym Git 
+
+
+## git init
+Tworzy lokalne repozytorium kontroli wersji. musimy przejść do tego katalogu w którym nie ma jeszcze folderu .git i po stworzeniu tego repo dodajemy pliki, commitujemy i mozemy potem wysłać to do githuba
+
