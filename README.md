@@ -39,4 +39,5 @@ wysyła obecny lokalny comit do repo na githubie. jeżeli użyłeś komendy git 
 
 ## git init
 Tworzy lokalne repozytorium kontroli wersji. musimy przejść do tego katalogu w którym nie ma jeszcze folderu .git i po stworzeniu tego repo dodajemy pliki, commitujemy i mozemy potem wysłać to do githuba
-
+### git remote add origin git@github.com:filutekartur/to-delete2.git
+Łączy origin ze zdalnym repo. W przypadku tworzenia nowego repo na kompie żeby móc potem wysyłąć commity do zdalnego repo to musimy stworzyć najpierw takie repot na githubie i wyciągnąć SSH.
