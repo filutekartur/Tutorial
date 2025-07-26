@@ -36,6 +36,8 @@ zapisuje zmiany w śledzonych plikach (add) zmiany zostaną zapisane w lokalnym 
 
 ## git push
 wysyła obecny lokalny comit do repo na githubie. jeżeli użyłeś komendy git init musisz wcześniej połączyć lokalnego gita ze zdalnym repo na githubie żeby widział gdzie wypychać comity
+### git push -u origin master
+Upstream dla push. Od tej pory można używać samego git push i git bedzie wiedział żeby wysłać to na origin i master
 
 ## git init
 Tworzy lokalne repozytorium kontroli wersji. musimy przejść do tego katalogu w którym nie ma jeszcze folderu .git i po stworzeniu tego repo dodajemy pliki, commitujemy i mozemy potem wysłać to do githuba
