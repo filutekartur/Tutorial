@@ -43,3 +43,11 @@ Upstream dla push. Od tej pory można używać samego git push i git bedzie wied
 Tworzy lokalne repozytorium kontroli wersji. musimy przejść do tego katalogu w którym nie ma jeszcze folderu .git i po stworzeniu tego repo dodajemy pliki, commitujemy i mozemy potem wysłać to do githuba
 ### git remote add origin git@github.com:filutekartur/to-delete2.git
 Łączy origin ze zdalnym repo. W przypadku tworzenia nowego repo na kompie żeby móc potem wysyłąć commity do zdalnego repo to musimy stworzyć najpierw takie repot na githubie i wyciągnąć SSH.
+
+## git checkout master
+Przechodzi pomiedzy gałęziami
+### git checkout -b branch2
+Tworzy gałąź branch2 i do niej przechodzi. jeżeli mamy różnice w jednym pliku w na jednej gałęzi i na drugiej to przchodząc checkoutem plik w którym są te różnice np. README.md bedzie sie zmieniac.
+Oznacza to że każda gałąź to tak jakby osobny projekt
+### git branch
+pokazuje wszystkie dostępne gałęzie
