@@ -51,3 +51,6 @@ Tworzy gałąź branch2 i do niej przechodzi. jeżeli mamy różnice w jednym pl
 Oznacza to że każda gałąź to tak jakby osobny projekt
 ### git branch
 pokazuje wszystkie dostępne gałęzie
+
+## git diff branch2
+Pokazuje różnice pomiędzy ostatnim comitem na obecnej gałęzi i ostatnim comitem gałęzi branch2. Można dopisać drugą nazwę gałęzi żeby sprawdzić dwie konkretne gałęzie a nie tą na której jesteśmy
