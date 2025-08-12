@@ -59,3 +59,8 @@ Pokazuje różnice pomiędzy ostatnim comitem na obecnej gałęzi i ostatnim com
 Merguje branch2 do gałezi na której obecnie jesteśmy np. master, domyślnie z funkcją fast-forward merge
 ### git merge branch2 --no-ff
 merguje bez fast-forward merge. Zwykły merge jeśli może to spłaszczy gałąź i włączy ją do głównej gałęzi. Ta metoda pozwala na uniknięcie tej sytuacji i zachowanie branch2 w historii jako widocznej dodatkowej gałęzi. I zawsze tworzy to commit scalający na gałęzi głównej czyli taki comit podsumowywujący włącznie gałęzi branch2 do master
+
+## gitk
+przeglądarka commitów/gałęzi itd.
+### git log --graph
+tekstowo/graficzny podlągad gałęzi i comitów można również dodać --oneline dla skróconego widoku
