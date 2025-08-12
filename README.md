@@ -54,3 +54,8 @@ pokazuje wszystkie dostępne gałęzie
 
 ## git diff branch2
 Pokazuje różnice pomiędzy ostatnim comitem na obecnej gałęzi i ostatnim comitem gałęzi branch2. Można dopisać drugą nazwę gałęzi żeby sprawdzić dwie konkretne gałęzie a nie tą na której jesteśmy
+
+## git merge branch2
+Merguje branch2 do gałezi na której obecnie jesteśmy np. master, domyślnie z funkcją fast-forward merge
+### git merge branch2 --no-ff
+merguje bez fast-forward merge. Zwykły merge jeśli może to spłaszczy gałąź i włączy ją do głównej gałęzi. Ta metoda pozwala na uniknięcie tej sytuacji i zachowanie branch2 w historii jako widocznej dodatkowej gałęzi. I zawsze tworzy to commit scalający na gałęzi głównej czyli taki comit podsumowywujący włącznie gałęzi branch2 do master
