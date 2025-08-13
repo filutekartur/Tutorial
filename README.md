@@ -64,3 +64,10 @@ merguje bez fast-forward merge. Zwykły merge jeśli może to spłaszczy gałą�
 przeglądarka commitów/gałęzi itd.
 ### git log --graph
 tekstowo/graficzny podlągad gałęzi i comitów można również dodać --oneline dla skróconego widoku
+
+## git pull
+pobiera i scala najnowsze comity ze zdalnego repozytorium. Wykonuje git fetch + git merge fetch_head. Fetch_head to poprostu dynamiczny wskaźnik na head najnowszego fetcha. Przydaje się gdy przeskakujemy po różnych repo np. origin1, origin2 wtedy fetch_head bedzie pokazywać na najnowszy pobrany commit a origin1/master zawsze na to repo
+### git fetch
+pobiera wszystkie zmiany ze zdalnego repo do lokalnej wersji zdalnego repo czyli np. origin/master. lokalna gałąź master jest nie naruszona do tej pory
+### git merge fetch_head
+scala z obecną gałęzią ostatnio fetchowaną gałąź
