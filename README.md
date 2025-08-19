@@ -86,6 +86,13 @@ uncomit - tak, cofa commit
 unstage - tak, czyści index
 files - tak, przywraca pliki z konkretnego commita
 
+## git restore
+przywraca pliki do stanu z ostatniego comita, indeks pozostaje bez zmian
+### --staged README.md
+cofa tylko zmiany wprowadzone do indeksu, pliki w katalogu roboczym pozostają bez zmian
+### HEAD~1
+cofa zmiany w plikach do stanu z przed commita HEAD
+
 ## gitk
 przeglądarka commitów/gałęzi itd.
 ### git log --graph
