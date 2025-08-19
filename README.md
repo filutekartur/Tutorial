@@ -68,6 +68,24 @@ pobiera wszystkie zmiany ze zdalnego repo do lokalnej wersji zdalnego repo czyli
 ### git merge fetch_head
 scala z obecną gałęzią ostatnio fetchowaną gałąź
 
+## git reset
+cofa nas do konkretnego commita lub usuwa pliki z indeksu
+### git reset . lub git reset README.md
+usuwa wszystkie pliki lub konkretne pliki z indeksu (unstage)
+### git reset (hash of commit) lub git reset HEAD~1
+cofa nas do konkretnego commitu domyślnie z --mixed lub cofa nas o jeden commit wstecz od head. hash commitu możemy wiciągnąć z git log
+#### --soft
+uncomit - tak, cofa commit
+unstage - nie, index jest nadal kompletny
+#### --mixed
+uncomit - tak, cofa commit
+unstage - tak, czyści index
+files - nie, pliki pozostają bez zmian
+#### --hard
+uncomit - tak, cofa commit
+unstage - tak, czyści index
+files - tak, przywraca pliki z konkretnego commita
+
 ## gitk
 przeglądarka commitów/gałęzi itd.
 ### git log --graph
