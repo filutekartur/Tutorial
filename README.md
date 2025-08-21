@@ -75,15 +75,15 @@ usuwa wszystkie pliki lub konkretne pliki z indeksu (unstage)
 ### git reset (hash of commit) lub git reset HEAD~1
 cofa nas do konkretnego commitu domyślnie z --mixed lub cofa nas o jeden commit wstecz od head. hash commitu możemy wiciągnąć z git log
 #### --soft
-uncomit - tak, cofa commit
+uncomit - tak, cofa commit\
 unstage - nie, index jest nadal kompletny
 #### --mixed
-uncomit - tak, cofa commit
-unstage - tak, czyści index
+uncomit - tak, cofa commit\
+unstage - tak, czyści index\
 files - nie, pliki pozostają bez zmian
 #### --hard
-uncomit - tak, cofa commit
-unstage - tak, czyści index
+uncomit - tak, cofa commit\
+unstage - tak, czyści index\
 files - tak, przywraca pliki z konkretnego commita
 
 ## git restore .
