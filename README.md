@@ -101,3 +101,10 @@ cofa zmiany w plikach do stanu z przedostatniego commita HEAD, co ciekawe index 
 przeglądarka commitów/gałęzi itd.
 ### git log --graph
 tekstowo/graficzny podlągad gałęzi i comitów można również dodać --oneline dla skróconego widoku
+
+## git config
+Konfiguracja opcji globalnych/repo. --list pokaże obecną konfigurację. Plik zapisuje się w c:\Users\x\.gitconfig
+### git config --global user.name "Full Name"
+Globalna konfiguracja nazwy uzytkownika którym bedą podpisywane wszystkie comity
+### git config --global user.email "email@address.com"
+Globalna konfiguracja maila którym bedą podpisywane wszystkie comity
